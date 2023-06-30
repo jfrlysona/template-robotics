@@ -1,0 +1,24 @@
+@use "header";
+@use "firstpage";
+@use "secondpage";
+@use "thirdpage";
+@use "fourthpage";
+@use "fifthpage";
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=DM+Sans&family=Roboto:wght@300;400&display=swap');
+*{
+    margin: 0;
+}
+.firstpart{
+    background-image:url(robotbg.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 750px;
+}
+.secondpart{
+    height: 570px;
+}
+.fifthpart{
+    img{
+        width: 75px;
+    }
+}
