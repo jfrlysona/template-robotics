@@ -1,0 +1,76 @@
+.fourthpart{
+    .contentoffourthpart{
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .flexpart{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 80px 15% 40px 15%;
+            .firstflexbox{
+                background-color: #aea16a;
+                height: 220px;
+                width: 320px;
+                padding-right:30px ;
+                align-self: flex-start;
+                h1{
+                    font-weight: bolder;
+                    text-align: left;
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 45px;
+                    color: white;
+                    margin:55px 25px 65px 25px;
+                }
+            }
+            .secondflexbox{
+                img{
+                    width: 342px;
+                    height: 260px;
+                }
+                padding-right:60px ;
+                position: absolute;
+                bottom: 18%;
+                left: 15%;
+            }
+            .thirdflexbox{
+                img{
+                    width: 350px;
+                    height: 490px;
+                }
+                padding-right:10px ;
+                padding-left: 10px ;
+
+            }
+            .fourthflexbox{
+                background-color: #bee5f7;
+                width: 350px;
+                height: 490px;
+                padding-left: 10px;
+                line-height: 35px;
+                p{
+                    color: black;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: lighter;
+                    font-size: 19px;
+                    text-align: left;
+                    margin:60px 20px 60px 20px;
+                }
+            }
+        }
+        a{
+            text-decoration: none;
+            display: block;
+            background-color: #bee5f7 ;
+            font-family: 'Roboto', sans-serif;
+            color: black;
+            font-weight: bolder;
+            text-align: center;
+            height: 36px;
+            width: 170px;
+            align-self: center;
+            padding-top: 15px;
+        }
+    }
+}
