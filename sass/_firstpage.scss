@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .firstpart{
     .content{
         display: flex;
@@ -25,32 +24,4 @@
             }
         }
     }
-=======
-.firstpart{
-    .content{
-        display: flex;
-        flex-direction: column;
-        margin-left: 700px;
-        margin-top: 20px;
-        .line{
-            height: 137px;
-            width: 15px ;
-            background-color: #8dd7d7;   
-            margin-top: 60px; 
-        }
-        .text{
-            color: white;
-            font-family: 'Roboto', sans-serif;            
-            display: flex;
-            flex-direction: column;
-            text-align: left;
-            font-size: 22px;
-            font-weight: lighter;
-            h1{
-                font-size: 80px;
-                font-family: 'DM Sans', sans-serif;
-            }
-        }
-    }
->>>>>>> 1e6c748f9127b8861845b589babd29a809bb737b
 }
