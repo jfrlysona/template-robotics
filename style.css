@@ -217,15 +217,20 @@ header .menu_icon {
 .fifthpart .contentoffifthpart .descriptions {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: baseline;
   text-align: left;
   line-height: 60px;
 }
+.fifthpart .contentoffifthpart .descriptions .robotization {
+  margin-left: 5%;
+}
 .fifthpart .contentoffifthpart .descriptions .robotization h2 {
   color: #aea16a;
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 29px;
+  font-weight: normal;
+  margin-bottom: 25px;
 }
 .fifthpart .contentoffifthpart .descriptions .robotization p {
   color: whitesmoke;
@@ -234,10 +239,15 @@ header .menu_icon {
   font-weight: lighter;
   line-height: 30px;
 }
+.fifthpart .contentoffifthpart .descriptions .engineering {
+  margin-left: 5%;
+}
 .fifthpart .contentoffifthpart .descriptions .engineering h2 {
   color: #aea16a;
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 29px;
+  font-weight: normal;
+  margin-bottom: 25px;
 }
 .fifthpart .contentoffifthpart .descriptions .engineering p {
   color: whitesmoke;
@@ -246,10 +256,15 @@ header .menu_icon {
   font-weight: lighter;
   line-height: 30px;
 }
+.fifthpart .contentoffifthpart .descriptions .industry {
+  margin-left: 5%;
+}
 .fifthpart .contentoffifthpart .descriptions .industry h2 {
   color: #aea16a;
   font-family: "Roboto", sans-serif;
-  font-size: 25px;
+  font-size: 29px;
+  font-weight: normal;
+  margin-bottom: 25px;
 }
 .fifthpart .contentoffifthpart .descriptions .industry p {
   color: whitesmoke;
@@ -259,12 +274,81 @@ header .menu_icon {
   line-height: 30px;
 }
 
+.sixthpart .contentofsixthpart .main-text {
+  text-align: center;
+}
+.sixthpart .contentofsixthpart .main-text h1 {
+  color: #aea16a;
+  font-family: "DM Sans", sans-serif;
+  font-size: 48px;
+  font-weight: bolder;
+  line-height: 150px;
+}
+.sixthpart .contentofsixthpart .main-text p {
+  color: #0b0b0b;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0% 25% 5% 25%;
+  line-height: 30px;
+}
+.sixthpart .contentofsixthpart .photos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 11%;
+  margin-right: 11%;
+}
+.sixthpart .contentofsixthpart .photos img {
+  width: 360px;
+  height: 462px;
+}
+
+.seventhpart {
+  background-color: black;
+  padding: 0% 15% 0% 15%;
+  position: relative;
+}
+.seventhpart .linesecond {
+  background-color: #aea16a;
+  height: 252px;
+  width: 15px;
+  display: inline-flex;
+  position: absolute;
+  top: 25%;
+}
+.seventhpart .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 7%;
+  padding-top: 10%;
+}
+.seventhpart .text-content img {
+  width: 104px;
+}
+.seventhpart .text-content p {
+  padding-top: 20px;
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+  line-height: 35px;
+}
+.seventhpart .text-content h2 {
+  color: whitesmoke;
+  align-self: flex-end;
+  font-size: 30px;
+  font-family: "DM Sans", sans-serif;
+  padding-top: 15px;
+}
+
 * {
   margin: 0;
 }
 
 .firstpart {
-  background-image: url(robotbg.jpg);
+  background-image: url(/assets/img/robotbg.jpg);
   background-repeat: no-repeat;
   margin: 0;
   height: 750px;
@@ -274,6 +358,18 @@ header .menu_icon {
   height: 570px;
 }
 
+.fourthpart a:hover{
+      background-color: #8ac1dd ;
+  }
+
 .fifthpart img {
-  width: 75px;
+  width: 60px;
+}
+
+.sixthpart {
+  height: 840px;
+}
+
+.seventhpart {
+  height: 500px;
 }/*# sourceMappingURL=style.css.map */

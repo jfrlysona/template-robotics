@@ -4,12 +4,14 @@
 @use "thirdpage";
 @use "fourthpage";
 @use "fifthpage";
+@use "sixthpage";
+@use "seventhpage";
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=DM+Sans&family=Roboto:wght@300;400&display=swap');
 *{
     margin: 0;
 }
 .firstpart{
-    background-image:url(robotbg.jpg);
+    background-image:url(/assets/img/robotbg.jpg);
     background-repeat: no-repeat;
     margin: 0;
     height: 750px;
@@ -17,8 +19,19 @@
 .secondpart{
     height: 570px;
 }
+.fourthpart{
+    a:hover{
+        background-color: #8ac1dd;
+    }
+}
 .fifthpart{
     img{
-        width: 75px;
+        width: 60px;
     }
+}
+.sixthpart{
+    height: 840px;
+}
+.seventhpart{
+    height: 500px;
 }
