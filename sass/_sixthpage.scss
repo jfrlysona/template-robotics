@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin h1-value(){
     color: #aea16a;
     font-family: 'DM Sans', sans-serif;
@@ -36,4 +37,44 @@
             }
         }
     }
+=======
+@mixin h1-value(){
+    color: #aea16a;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 150px;
+}
+@mixin p-value(){
+    color: #0b0b0b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.sixthpart{
+    .contentofsixthpart{
+        .main-text{
+            text-align: center;
+            h1{
+                @include h1-value();
+            }
+            p{
+                @include p-value();
+                margin: 0% 25% 5% 25%;
+                line-height: 30px;
+            }
+        }
+        .photos{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            margin-left: 11%;
+            margin-right: 11%;
+            img{
+            width: 360px;
+            height: 462px;
+            }
+        }
+    }
+>>>>>>> 1e6c748f9127b8861845b589babd29a809bb737b
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin p-property(){
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
@@ -38,4 +39,46 @@
             padding-top: 15px;
         }
     }
+=======
+@mixin p-property(){
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 35px;
+}
+.seventhpart{
+    background-color: black;
+    padding: 0% 15% 0% 15%;
+    position: relative;
+    .linesecond{
+        background-color: #aea16a;
+        height: 252px;
+        width: 15px;
+        display: inline-flex;
+        position: absolute;
+        top:25% ;
+    }
+    .text-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 7%;
+        padding-top: 10%;
+        img{
+            width: 104px;
+        }
+        p{
+            padding-top: 20px;
+            @include p-property();
+        }
+        h2{
+            color: whitesmoke;
+            align-self: flex-end;
+            font-size: 30px;
+            font-family: 'DM Sans', sans-serif;
+            padding-top: 15px;
+        }
+    }
+>>>>>>> 1e6c748f9127b8861845b589babd29a809bb737b
 }

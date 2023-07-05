@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @mixin paragraph-property(){
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
@@ -55,4 +56,63 @@
             }
         }
     }
+=======
+@mixin paragraph-property(){
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 30px;
+}
+@mixin h-value(){
+    color: #aea16a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.fifthpart{
+    .contentoffifthpart{
+        background-color: #333333;
+        height: 300px;
+        padding: 100px 200px 100px 200px;
+        .descriptions{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: baseline;
+            text-align: left;
+            line-height: 60px;
+            .robotization{
+                h2{
+                    @include h-value();
+                }
+                p{
+                    @include paragraph-property();
+                }
+                margin-left: 5%;
+            }
+            .engineering{
+                h2{
+                    @include h-value();
+                }
+                p{
+                    @include paragraph-property();
+                }
+                margin-left: 5%;
+
+            }
+            .industry{
+                h2{
+                    @include h-value();
+                }
+                p{
+                    @include paragraph-property();
+                }
+                margin-left: 5%;
+
+            }
+        }
+    }
+>>>>>>> 1e6c748f9127b8861845b589babd29a809bb737b
 }

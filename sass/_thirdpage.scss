@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .thirdpart{
     .container-of-parts{
         display: flex;
@@ -40,4 +41,48 @@
     img{
         width: 180px;
     }
+=======
+.thirdpart{
+    .container-of-parts{
+        display: flex;
+        flex-direction: row;
+        height: 500px;
+        position: relative;
+        .graypart{
+            background-color: #262626;
+            width: 50%;
+            color: white;
+            padding-left:15%;
+            padding-top: 2%;
+            h2{
+                font-family: 'Roboto', sans-serif;
+                font-weight: normal;
+                line-height: 70px;
+            }
+            p{
+                font-family: 'Abel', sans-serif;
+                font-size: 22px;
+                color: #fffffffe;
+                font-weight: lighter;
+                font-style: italic;
+            }
+        }
+        .bluepart{
+            background-color: #bee5f7;
+            width: 50%;
+            padding-right:15% ;
+            .images{
+                display: flex;
+                flex-direction: row;
+                position: absolute;
+                bottom: 20%;
+                left: 220px;
+                right: 280px;
+                }
+        }
+    }
+    img{
+        width: 180px;
+    }
+>>>>>>> 1e6c748f9127b8861845b589babd29a809bb737b
 }
