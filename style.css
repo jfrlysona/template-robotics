@@ -348,11 +348,7 @@ header .menu_icon {
 }
 
 .firstpart {
-<<<<<<< HEAD
   background-image: url(/assets/img/robotbg.jpg);
-=======
-  background-image: url(robotbg.jpg);
->>>>>>> 1e6c748f9127b8861845b589babd29a809bb737b
   background-repeat: no-repeat;
   margin: 0;
   height: 750px;
@@ -362,13 +358,10 @@ header .menu_icon {
   height: 570px;
 }
 
-<<<<<<< HEAD
 .fourthpart a:hover{
       background-color: #8ac1dd ;
   }
 
-=======
->>>>>>> 1e6c748f9127b8861845b589babd29a809bb737b
 .fifthpart img {
   width: 60px;
 }
