@@ -1,0 +1,43 @@
+footer{
+    height: 350px;
+    background-color: #23354d;
+    p{
+        color: whitesmoke;
+        font-family: 'Roboto', sans-serif;
+        font-size: 17px;
+        font-weight: 300;
+        text-align: center;
+        padding-top: 70px ;
+        position: relative;
+        margin-left: 32%;
+        margin-right: 32%;
+        line-height: 25px;
+    }
+    .logos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        position: absolute;
+        right: 47%;
+    }
+    .end{
+        height: 60px;
+        background-color: #333333;
+        margin-top: 10%;
+        padding-left: 38%;
+        padding-top: 3%;
+        span{
+            color: whitesmoke;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        a{
+            color: #b9dfdf;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+        }
+        
+    }
+}
