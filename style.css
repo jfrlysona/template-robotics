@@ -33,19 +33,19 @@ header .menu_icon {
   margin-top: 20px;
 }
 
-.firstpart .content {
+.beginning .content {
   display: flex;
   flex-direction: column;
   margin-left: 700px;
   margin-top: 20px;
 }
-.firstpart .content .line {
+.beginning .content .line {
   height: 137px;
   width: 15px;
   background-color: #b9dfdf;
   margin-top: 60px;
 }
-.firstpart .content .text {
+.beginning .content .text {
   color: white;
   font-family: "Roboto", sans-serif;
   display: flex;
@@ -54,76 +54,76 @@ header .menu_icon {
   font-size: 22px;
   font-weight: lighter;
 }
-.firstpart .content .text h1 {
+.beginning .content .text h1 {
   font-size: 80px;
   font-family: "DM Sans", sans-serif;
 }
 
-.secondpart .container {
+.human-robotpart .container {
   display: flex;
   flex-direction: row;
   margin-left: 15%;
   margin-right: 15%;
   margin-top: 70px;
 }
-.secondpart .container .main_content {
+.human-robotpart .container .main_content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: "Roboto", sans-serif;
 }
-.secondpart .container .main_content h2 {
+.human-robotpart .container .main_content h2 {
   font-size: 20px;
   font-weight: normal;
 }
-.secondpart .container .main_content h1 {
+.human-robotpart .container .main_content h1 {
   font-size: 42px;
   font-weight: bold;
   padding: 10px;
   padding-left: 3px;
 }
-.secondpart .container .main_content p {
+.human-robotpart .container .main_content p {
   color: rgb(74, 74, 74);
   font-size: 22px;
   font-weight: lighter;
   line-height: 30px;
 }
-.secondpart .container .robot-hand {
+.human-robotpart .container .robot-hand {
   width: 600px;
   height: 500px;
 }
 
-.thirdpart .container-of-parts {
+.future-of-work .container-of-parts {
   display: flex;
   flex-direction: row;
   height: 500px;
   position: relative;
 }
-.thirdpart .container-of-parts .graypart {
+.future-of-work .container-of-parts .graypart {
   background-color: #262626;
   width: 50%;
   color: white;
   padding-left: 15%;
   padding-top: 2%;
 }
-.thirdpart .container-of-parts .graypart h2 {
+.future-of-work .container-of-parts .graypart h2 {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   line-height: 70px;
 }
-.thirdpart .container-of-parts .graypart p {
+.future-of-work .container-of-parts .graypart p {
   font-family: "Abel", sans-serif;
   font-size: 22px;
   color: rgba(255, 255, 255, 0.9960784314);
   font-weight: lighter;
   font-style: italic;
 }
-.thirdpart .container-of-parts .bluepart {
+.future-of-work .container-of-parts .bluepart {
   background-color: #b9dfdf;
   width: 50%;
   padding-right: 15%;
 }
-.thirdpart .container-of-parts .bluepart .images {
+.future-of-work .container-of-parts .bluepart .images {
   display: flex;
   flex-direction: row;
   position: absolute;
@@ -131,30 +131,30 @@ header .menu_icon {
   left: 220px;
   right: 280px;
 }
-.thirdpart img {
+.future-of-work img {
   width: 180px;
 }
 
-.fourthpart .contentoffourthpart {
+.cesrobots .contentofcesrobots {
   height: 700px;
   display: flex;
   flex-direction: column;
   position: relative;
 }
-.fourthpart .contentoffourthpart .flexpart {
+.cesrobots .contentofcesrobots .flexpart {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin: 80px 15% 40px 15%;
 }
-.fourthpart .contentoffourthpart .flexpart .firstflexbox {
+.cesrobots .contentofcesrobots .flexpart .titleflexbox {
   background-color: #aea16a;
   height: 220px;
   width: 320px;
   padding-right: 30px;
   align-self: flex-start;
 }
-.fourthpart .contentoffourthpart .flexpart .firstflexbox h1 {
+.cesrobots .contentofcesrobots .flexpart .titleflexbox h1 {
   font-weight: bolder;
   text-align: left;
   font-family: "Roboto", sans-serif;
@@ -162,32 +162,32 @@ header .menu_icon {
   color: white;
   margin: 55px 25px 65px 25px;
 }
-.fourthpart .contentoffourthpart .flexpart .secondflexbox {
+.cesrobots .contentofcesrobots .flexpart .imageflexbox {
   padding-right: 60px;
   position: absolute;
   bottom: 18%;
   left: 15%;
 }
-.fourthpart .contentoffourthpart .flexpart .secondflexbox img {
+.cesrobots .contentofcesrobots .flexpart .imageflexbox img {
   width: 342px;
   height: 260px;
 }
-.fourthpart .contentoffourthpart .flexpart .thirdflexbox {
+.cesrobots .contentofcesrobots .flexpart .main-imageflexbox {
   padding-right: 10px;
   padding-left: 10px;
 }
-.fourthpart .contentoffourthpart .flexpart .thirdflexbox img {
+.cesrobots .contentofcesrobots .flexpart .main-imageflexbox img {
   width: 350px;
   height: 490px;
 }
-.fourthpart .contentoffourthpart .flexpart .fourthflexbox {
+.cesrobots .contentofcesrobots .flexpart .textflexbox {
   background-color: #b9dfdf;
   width: 350px;
   height: 490px;
   padding-left: 10px;
   line-height: 35px;
 }
-.fourthpart .contentoffourthpart .flexpart .fourthflexbox p {
+.cesrobots .contentofcesrobots .flexpart .textflexbox p {
   color: black;
   font-family: "Roboto", sans-serif;
   font-weight: lighter;
@@ -195,7 +195,7 @@ header .menu_icon {
   text-align: left;
   margin: 60px 20px 60px 20px;
 }
-.fourthpart .contentoffourthpart a {
+.cesrobots .contentofcesrobots a {
   text-decoration: none;
   display: block;
   background-color: #b9dfdf;
@@ -209,12 +209,12 @@ header .menu_icon {
   padding-top: 15px;
 }
 
-.fifthpart .contentoffifthpart {
+.robotengineering .contentofrobotengineering {
   background-color: #333333;
   height: 300px;
   padding: 100px 200px 100px 200px;
 }
-.fifthpart .contentoffifthpart .descriptions {
+.robotengineering .contentofrobotengineering .descriptions {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -222,51 +222,51 @@ header .menu_icon {
   text-align: left;
   line-height: 60px;
 }
-.fifthpart .contentoffifthpart .descriptions .robotization {
+.robotengineering .contentofrobotengineering .descriptions .robotization {
   margin-left: 5%;
 }
-.fifthpart .contentoffifthpart .descriptions .robotization h2 {
+.robotengineering .contentofrobotengineering .descriptions .robotization h2 {
   color: #aea16a;
   font-family: "Roboto", sans-serif;
   font-size: 29px;
   font-weight: normal;
   margin-bottom: 25px;
 }
-.fifthpart .contentoffifthpart .descriptions .robotization p {
+.robotengineering .contentofrobotengineering .descriptions .robotization p {
   color: whitesmoke;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: lighter;
   line-height: 30px;
 }
-.fifthpart .contentoffifthpart .descriptions .engineering {
+.robotengineering .contentofrobotengineering .descriptions .engineering {
   margin-left: 5%;
 }
-.fifthpart .contentoffifthpart .descriptions .engineering h2 {
+.robotengineering .contentofrobotengineering .descriptions .engineering h2 {
   color: #aea16a;
   font-family: "Roboto", sans-serif;
   font-size: 29px;
   font-weight: normal;
   margin-bottom: 25px;
 }
-.fifthpart .contentoffifthpart .descriptions .engineering p {
+.robotengineering .contentofrobotengineering .descriptions .engineering p {
   color: whitesmoke;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: lighter;
   line-height: 30px;
 }
-.fifthpart .contentoffifthpart .descriptions .industry {
+.robotengineering .contentofrobotengineering .descriptions .industry {
   margin-left: 5%;
 }
-.fifthpart .contentoffifthpart .descriptions .industry h2 {
+.robotengineering .contentofrobotengineering .descriptions .industry h2 {
   color: #aea16a;
   font-family: "Roboto", sans-serif;
   font-size: 29px;
   font-weight: normal;
   margin-bottom: 25px;
 }
-.fifthpart .contentoffifthpart .descriptions .industry p {
+.robotengineering .contentofrobotengineering .descriptions .industry p {
   color: whitesmoke;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -274,17 +274,17 @@ header .menu_icon {
   line-height: 30px;
 }
 
-.sixthpart .contentofsixthpart .main-text {
+.trends .contentoftrends .main-text {
   text-align: center;
 }
-.sixthpart .contentofsixthpart .main-text h1 {
+.trends .contentoftrends .main-text h1 {
   color: #aea16a;
   font-family: "DM Sans", sans-serif;
   font-size: 48px;
   font-weight: bolder;
   line-height: 150px;
 }
-.sixthpart .contentofsixthpart .main-text p {
+.trends .contentoftrends .main-text p {
   color: #0b0b0b;
   font-family: "Roboto", sans-serif;
   font-size: 20px;
@@ -292,24 +292,24 @@ header .menu_icon {
   margin: 0% 25% 5% 25%;
   line-height: 30px;
 }
-.sixthpart .contentofsixthpart .photos {
+.trends .contentoftrends .photos {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   margin-left: 11%;
   margin-right: 11%;
 }
-.sixthpart .contentofsixthpart .photos img {
+.trends .contentoftrends .photos img {
   width: 360px;
   height: 462px;
 }
 
-.seventhpart {
+.quotepart {
   background-color: black;
   padding: 0% 15% 0% 15%;
   position: relative;
 }
-.seventhpart .linesecond {
+.quotepart .lineinquotepart {
   background-color: #aea16a;
   height: 252px;
   width: 15px;
@@ -317,17 +317,17 @@ header .menu_icon {
   position: absolute;
   top: 25%;
 }
-.seventhpart .text-content {
+.quotepart .text-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 7%;
   padding-top: 10%;
 }
-.seventhpart .text-content img {
+.quotepart .text-content img {
   width: 104px;
 }
-.seventhpart .text-content p {
+.quotepart .text-content p {
   padding-top: 20px;
   color: whitesmoke;
   font-family: "Roboto", sans-serif;
@@ -335,7 +335,7 @@ header .menu_icon {
   font-weight: lighter;
   line-height: 35px;
 }
-.seventhpart .text-content h2 {
+.quotepart .text-content h2 {
   color: whitesmoke;
   align-self: flex-end;
   font-size: 30px;
@@ -343,12 +343,12 @@ header .menu_icon {
   padding-top: 15px;
 }
 
-.eighthpart {
+.artificial-intelligence {
   background-color: #b9dfdf;
   height: 960px;
   position: relative;
 }
-.eighthpart .contentofeighthpart {
+.artificial-intelligence .contentofartificial-intelligence {
   background-color: #d7eded;
   height: 800px;
   width: 1150px;
@@ -358,26 +358,26 @@ header .menu_icon {
   display: flex;
   flex-direction: row;
 }
-.eighthpart .contentofeighthpart img {
+.artificial-intelligence .contentofartificial-intelligence img {
   width: 700px;
   height: 800px;
 }
-.eighthpart .contentofeighthpart .contents {
+.artificial-intelligence .contentofartificial-intelligence .contents {
   margin: 30px 25px 0px 25px;
 }
-.eighthpart .contentofeighthpart .contents h1 {
+.artificial-intelligence .contentofartificial-intelligence .contents h1 {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   line-height: 55px;
 }
-.eighthpart .contentofeighthpart .contents p {
+.artificial-intelligence .contentofartificial-intelligence .contents p {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 300;
   line-height: 30px;
   margin-top: 55px;
 }
-.eighthpart .contentofeighthpart .contents a {
+.artificial-intelligence .contentofartificial-intelligence .contents a {
   display: block;
   text-decoration: none;
   color: black;
@@ -393,12 +393,12 @@ header .menu_icon {
   margin-top: 50px;
 }
 
-.ninthpart {
+.aiperspectives {
   background-color: #ffffff;
   height: 950px;
   position: relative;
 }
-.ninthpart .contentofninthpart {
+.aiperspectives .aiperspectivescomponents {
   background-color: #ffffff;
   height: 690px;
   width: 1150px;
@@ -408,32 +408,32 @@ header .menu_icon {
   display: flex;
   flex-direction: row;
 }
-.ninthpart .contentofninthpart img {
+.aiperspectives .aiperspectivescomponents img {
   width: 600px;
   height: 690px;
 }
-.ninthpart .contentofninthpart .components {
+.aiperspectives .aiperspectivescomponents .components {
   margin-left: 50px;
 }
-.ninthpart .contentofninthpart .components img {
+.aiperspectives .aiperspectivescomponents .components img {
   width: 210px;
   height: 210px;
   position: absolute;
   right: 0%;
 }
-.ninthpart .contentofninthpart .components h3 {
+.aiperspectives .aiperspectivescomponents .components h3 {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   line-height: 90px;
   font-weight: 400;
   margin-top: 150px;
 }
-.ninthpart .contentofninthpart .components h1 {
+.aiperspectives .aiperspectivescomponents .components h1 {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   line-height: 30px;
 }
-.ninthpart .contentofninthpart .components p {
+.aiperspectives .aiperspectivescomponents .components p {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   font-weight: 300;
@@ -441,7 +441,7 @@ header .menu_icon {
   margin-top: 35px;
   margin-right: 18px;
 }
-.ninthpart .contentofninthpart .components a {
+.aiperspectives .aiperspectivescomponents .components a {
   display: block;
   text-decoration: none;
   color: black;
@@ -508,38 +508,38 @@ footer .end a {
   margin: 0;
 }
 
-.firstpart {
+.beginning {
   background-image: url(assets/img/robotbg.jpg);
   background-repeat: no-repeat;
   margin: 0;
   height: 750px;
 }
 
-.secondpart {
+.human-robotpart {
   height: 570px;
 }
 
-.fourthpart a:hover {
+.cesrobots a:hover {
   background-color: rgba(140, 200, 230, 0.8784313725);
 }
 
-.fifthpart img {
+.robotengineering img {
   width: 60px;
 }
 
-.sixthpart {
+.trends {
   height: 840px;
 }
 
-.seventhpart {
+.quotepart {
   height: 500px;
 }
 
-.eighthpart .contents a:hover {
+.artificial-intelligence .contents a:hover {
   background-color: rgba(140, 200, 230, 0.8784313725);
 }
 
-.ninthpart .components a:hover {
+.aiperspectives .components a:hover {
   background-color: rgba(140, 200, 230, 0.8784313725);
 }
 

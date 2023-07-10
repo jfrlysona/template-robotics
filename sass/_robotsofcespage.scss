@@ -1,5 +1,5 @@
-.fourthpart{
-    .contentoffourthpart{
+.cesrobots{
+    .contentofcesrobots{
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -9,7 +9,7 @@
             flex-direction: row;
             justify-content: space-around;
             margin: 80px 15% 40px 15%;
-            .firstflexbox{
+            .titleflexbox{
                 background-color: #aea16a;
                 height: 220px;
                 width: 320px;
@@ -24,7 +24,7 @@
                     margin:55px 25px 65px 25px;
                 }
             }
-            .secondflexbox{
+            .imageflexbox{
                 img{
                     width: 342px;
                     height: 260px;
@@ -34,7 +34,7 @@
                 bottom: 18%;
                 left: 15%;
             }
-            .thirdflexbox{
+            .main-imageflexbox{
                 img{
                     width: 350px;
                     height: 490px;
@@ -43,7 +43,7 @@
                 padding-left: 10px ;
 
             }
-            .fourthflexbox{
+            .textflexbox{
                 background-color: #b9dfdf;
                 width: 350px;
                 height: 490px;

@@ -1,46 +1,46 @@
 @use "sass/header";
-@use "sass/firstpage";
-@use "sass/secondpage";
-@use "sass/thirdpage";
-@use "sass/fourthpage";
-@use "sass/fifthpage";
-@use "sass/sixthpage";
-@use "sass/seventhpage";
-@use "sass/eighthpage";
-@use "sass/ninthpage";
+@use "sass/beginningpage";
+@use "sass/technologynewspage";
+@use "sass/futureofworkpage";
+@use "sass/robotsofcespage";
+@use "sass/roboticsengineeringpage";
+@use "sass/technologytrendspage";
+@use "sass/quotepage";
+@use "sass/airobotspage";
+@use "sass/aiperspectivespage";
 @use "sass/footer";
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=DM+Sans&family=Roboto:wght@300;400&display=swap');
 *{
     margin: 0;
 }
-.firstpart{
+.beginning{
     background-image:url(assets/img/robotbg.jpg);
     background-repeat: no-repeat;
     margin: 0;
     height: 750px;
 }
-.secondpart{
+.human-robotpart{
     height: 570px;
 }
 
-.fourthpart{
+.cesrobots{
     a:hover{
         background-color: #8cc8e6e0;
     }
 }
 
-.fifthpart{
+.robotengineering{
     img{
         width: 60px;
     }
 }
-.sixthpart{
+.trends{
     height: 840px;
 }
-.seventhpart{
+.quotepart{
     height: 500px;
 }
-.eighthpart{ 
+.artificial-intelligence{ 
     .contents{
         a:hover{
             background-color:#8cc8e6e0;
@@ -48,7 +48,7 @@
     }
 }
 
-.ninthpart{ 
+.aiperspectives{ 
     .components{
         a:hover{
             background-color:#8cc8e6e0;
