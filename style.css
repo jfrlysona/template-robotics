@@ -480,6 +480,10 @@ footer .logos {
   position: absolute;
   right: 47%;
 }
+footer .logos a {
+  display: block;
+  margin-left: 20px;
+}
 footer .end {
   height: 60px;
   background-color: #333333;
