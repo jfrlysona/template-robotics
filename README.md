@@ -1,3 +1,2 @@
-# template-robots
 homework
-![screencapture-127-0-0-1-5500-index-html-2023-07-05-21_08_43](https://github.com/jfrlysona/template-robotics/assets/95244422/938d0a05-feed-45ca-b404-e8e8ca897581)
+![screencapture-file-C-Users-User-Desktop-kurs-html-template-robotics-index-html-2023-07-07-00_40_18 (1)](https://github.com/jfrlysona/template-robotics/assets/95244422/27c51be8-52c5-407b-9dd5-a2f14a65d067)
