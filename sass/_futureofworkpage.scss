@@ -27,6 +27,9 @@
             background-color: #b9dfdf;
             width: 50%;
             padding-right:15% ;
+            img{
+                width: 180px;
+            }
             .images{
                 display: flex;
                 flex-direction: row;
@@ -34,11 +37,77 @@
                 bottom: 20%;
                 left: 220px;
                 right: 280px;
+                img{
+                    width: 180px;
                 }
+            }
         }
-    }
-    img{
-        width: 180px;
     }
 }
 
+@media (max-width:768px){
+    .future-of-work{
+        .container-of-parts{
+            height: 1400px;
+            width: 100%;
+            .graypart{
+                padding-left: 3%;
+                h2{
+                   font-size: 32px;
+                }
+                p{
+                    font-size: 25px;
+                }
+            }
+            .bluepart{
+                padding-right: 3%;
+                img{
+                    width: 220px;
+                }
+                .images{
+                    img{
+                        width: 300px;
+                    }
+                    flex-wrap: wrap;
+                    left: 11%;
+                    right: 10%;
+                    bottom: 4%;
+                }
+            }
+        }
+    }   
+}
+
+@media (max-width:480px){
+    .future-of-work{ 
+            .container-of-parts{
+            height: 1620px;
+            width: 100%;
+            .graypart{
+                padding-left: 2%;
+                h2{
+                    font-size: 26px;
+                    line-height: 40px;
+                }
+                p{
+                    font-size: 20px;
+                }
+            }
+            .bluepart{
+                padding-right: 2%;
+                img{
+                    width: 150px;
+                }
+                .images{
+                    img{
+                    width: 230px;
+                }
+                flex-wrap: wrap;
+                left: 25%;
+                right: 25%;
+                bottom: 2%;
+                }
+            }
+        }
+    }
+}
